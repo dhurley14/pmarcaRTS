@@ -1,0 +1,6 @@
+Latent Dirichlect Allocation
+http://www.semanticsearchart.com/downloads/UWEETR-2010-0006.pdf
+
+categorization of twitter feed
+http://blog.mathandpencil.com/using-latent-dirichlet-allocation-to-categorize-my-twitter-feed/
+
