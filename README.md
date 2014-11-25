@@ -1,4 +1,4 @@
-## Marc Andreessen's retweet storms and Machine Learning
+## Marc Andreessen's Retweet Storms and Machine Learning
 
 I was interested in figuring out what topics Marc Andreessen retweets most 
 often, as this is probably an accurate idea of what his interests are.  I
