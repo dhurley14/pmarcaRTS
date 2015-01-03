@@ -6,3 +6,7 @@ http://blog.mathandpencil.com/using-latent-dirichlet-allocation-to-categorize-my
 
 diffbot can extract the body of a page which we can use for the LDA training.
 http://www.diffbot.com
+
+I have to figure out how to structure the resulting data so that it doesn't
+overload RAM and it fits into this sort of format.. 
+http://radimrehurek.com/gensim/tut1.html#corpus-streaming-one-document-at-a-time
