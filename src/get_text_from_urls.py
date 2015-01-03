@@ -2,6 +2,7 @@ import os
 import sys
 import requests
 import json
+import ast
 
 """ This script will pass my list of URL's with articles to diffbot,
 which will then extract the body text and write that to a file I 
@@ -20,6 +21,9 @@ def create_bulk_job(urls, name):
     params = dict(token=DIFF_BOT_TOKEN, name=name, urls=urls, apiUrl=apiUrl)
     response = requests.post('http://api.diffbot.com/v3/bulk',data=params)
     moarData = json.loads(response.content)
+    # response from diffbot wrote data here..
+    target = open('output_from_diffbot.txt','a')
+    target.write(str(moarData))
     print moarData['jobs'][0]['downloadJson']
 
 if __name__ == '__main__':
