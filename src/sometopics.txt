@@ -1,0 +1,10 @@
+0.012*said + 0.009*venture + 0.008*islamic + 0.008*duggal + 0.006*currency + 0.006*startups + 0.006*new + 0.006*according + 0.006*investors + 0.005*first
+0.011*digitalocean + 0.008*fund + 0.007*data + 0.007*since + 0.007*hosting + 0.007*new + 0.007*percent + 0.006*amazon + 0.005*report + 0.005*slyngstad
+0.023*data + 0.021*health + 0.007*global + 0.007*world + 0.006*new + 0.006*information + 0.006*personal + 0.006*care + 0.005*access + 0.005*trade
+0.008*van + 0.007*mobile + 0.005*first + 0.005*work + 0.005*ceo + 0.003*technology + 0.003*office + 0.003*- + 0.003*use + 0.003*thing
+0.023*data + 0.023*available + 0.007*news + 0.005*public + 0.005*jobs + 0.005*marshall + 0.004*information + 0.004*justice + 0.004*avoid + 0.004*areas
+0.009*financial + 0.008*banks + 0.007*better + 0.007*different + 0.004*like + 0.004*one + 0.004*significant + 0.004*market + 0.004*think + 0.004*banking
+0.038*shortcuts + 0.038*keyboard + 0.021*available + 0.019*common + 0.019*site + 0.019*actions + 0.007*share + 0.007*netcraft + 0.006*hosting + 0.005*ssl
+0.012*new + 0.008*oil + 0.008*condos + 0.007*international + 0.006*toronto + 0.005*chinese + 0.005*venezuela + 0.005*last + 0.005*market + 0.005*foreign
+0.019*think + 0.011*going + 0.008*one + 0.008*would + 0.008*labor + 0.008*sort + 0.008*people + 0.007*capital + 0.006*much + 0.005*political
+0.012*qe + 0.009*would + 0.006*even + 0.006*mpc + 0.006*rates + 0.006*one + 0.005*interest + 0.005*money + 0.005*bank + 0.005*effects
