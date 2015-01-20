@@ -1,6 +1,7 @@
 """ This script is responsible for acquiring
 
- all of Marc Andreessen's most recent retweets.  
+ all of Marc Andreessen's most recent retweets.
+ 01/19/2015  
 """
 from twython import Twython
 
@@ -9,8 +10,8 @@ def get_authentication():
 
     return a new instance of the Twython object.
     """
-    APP_KEY = 'XXX'
-    APP_SECRET = 'XXXXX'
+    APP_KEY = 'xxx'
+    APP_SECRET = 'xxxxx'
     twitter = Twython(APP_KEY, APP_SECRET)
     return twitter
 
@@ -39,18 +40,19 @@ def output_all_rts():
     user_timeline = get_tweets()
     #print(user_timeline[0]['entities']['urls'][0]['url'])
     #for i in xrange(16):
-    print("len = "+str(len(user_timeline)))
-    urls = [user_timeline[i]['entities']['urls'][0]['url'] for i in xrange(len(user_timeline)) if user_timeline[i]['entities']['urls']]
+    #print("len = "+str(len(user_timeline)))
+    urls = {user_timeline[i]['entities']['urls'][0]['expanded_url']: user_timeline[i]['text']  for i in xrange(len(user_timeline)) if user_timeline[i]['entities']['urls'] and "RT" in user_timeline[i]['text']}
     """rts = [user_timeline[i]['text'].encode('utf-8') for i in xrange(len(user_timeline)) 
         if "RT " in user_timeline[i]['text']]"""
     for i in xrange(16):
         user_timeline = get_tweets(username='pmarca',anId=user_timeline[len(user_timeline)-1]['id'])
-        [urls.append(user_timeline[i]['entities']['urls'][0]['url']) for i in xrange(len(user_timeline))
-            if user_timeline[i]['entities']['urls']]
+        urls.update({user_timeline[i]['entities']['urls'][0]['expanded_url']: user_timeline[i]['text'] for i in xrange(len(user_timeline))
+            if user_timeline[i]['entities']['urls'] and "RT" in user_timeline[i]['text']})
     print len(urls)
-    output_file = open("pmarca_rts_append.txt", "a+b")
-    for line in urls:
-        output_file.write(''.join(line)+"\n")
+    output_file = open("pmarca_rts_links_dict.txt", "w+b")
+    output_file.write(str(urls))
+    #for link,text in urls.items():
+    #    output_file.write(''.join(link,text)+"\n")
     output_file.close()
 
 if __name__ == '__main__':
