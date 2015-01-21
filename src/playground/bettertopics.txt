@@ -1,0 +1,10 @@
+0.023*venture + 0.015*startups + 0.013*car + 0.013*said + 0.013*investors + 0.011*first + 0.011*according + 0.011*fund + 0.011*founder + 0.009*company
+0.031*keyboard + 0.031*shortcuts + 0.015*common + 0.015*actions + 0.015*site + 0.015*available + 0.014*inflation + 0.012*global + 0.012*rates + 0.010*bank
+0.024*jobs + 0.015*areas + 0.013*state + 0.013*still + 0.011*year + 0.011*big + 0.011*percent + 0.009*san + 0.009*many + 0.009*growth
+0.024*think + 0.013*going + 0.012*would + 0.011*one + 0.011*people + 0.009*labor + 0.009*sort + 0.008*many + 0.008*capital + 0.008*much
+0.020*would + 0.017*effects + 0.014*monetary + 0.013*financial + 0.012*interest + 0.012*money + 0.012*asset + 0.011*bank + 0.011*one + 0.011*yields
+0.084*data + 0.047*available + 0.026*health + 0.014*digitalocean + 0.012*new + 0.010*hosting + 0.008*population + 0.007*2014 + 0.007*information + 0.007*personal
+0.023*hosting + 0.019*netcraft + 0.016*share + 0.016*digitalocean + 0.012*found + 0.012*web + 0.012*provides + 0.012*sites + 0.008*companies + 0.008*number
+0.019*new + 0.016*says + 0.016*employers + 0.013*education + 0.013*classes + 0.010*people + 0.010*across + 0.010*partners + 0.007*work + 0.007*learning
+0.014*said + 0.013*since + 0.011*new + 0.011*people + 0.010*rates + 0.010*islamic + 0.010*purchases + 0.008*report + 0.008*also + 0.007*evidence
+0.013*said + 0.012*new + 0.009*china + 0.009*fund + 0.009*oil + 0.008*government + 0.008*chinese + 0.008*percent + 0.008*real + 0.006*international
