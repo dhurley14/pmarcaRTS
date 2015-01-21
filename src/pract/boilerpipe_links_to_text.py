@@ -21,7 +21,7 @@ def buildMapping(someDictFile):
             extractor = Extractor(extractor='ArticleSentencesExtractor',url=str(key))
             print("got the extractor")
             #target.write(str(result[key])+"|||"+extractor.getText().encode('utf-8')+'\n\n\n')
-            target.write(extractor.getText().encode('utf-8')) # 
+            target.write(result[key].encode('utf-8') + " ||| "+extractor.getText().replace("\n","").encode('utf-8')+"\n") #
             print("wrote data")
             successRatio += 1
             linksLeft += 1

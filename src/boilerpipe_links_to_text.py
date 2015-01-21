@@ -14,14 +14,14 @@ def buildMapping(someDictFile):
     keySize = len(result.keys())
     successRatio = 0
     linksLeft = 0
-    target = open('content_link_mapping.txt','w')
+    target = open('boilerpipeOutput.txt','w')
     for key in result.keys():
     
         try:
             extractor = Extractor(extractor='ArticleSentencesExtractor',url=str(key))
             print("got the extractor")
             #target.write(str(result[key])+"|||"+extractor.getText().encode('utf-8')+'\n\n\n')
-            target.write(extractor.getText().encode('utf-8')) # 
+            target.write(result[key].encode('utf-8') + " ||| "+extractor.getText().replace("\n","").encode('utf-8')+"\n") # 
             print("wrote data")
             successRatio += 1
             linksLeft += 1
