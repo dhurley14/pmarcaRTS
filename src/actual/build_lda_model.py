@@ -13,7 +13,7 @@ def createDict(myTextFile):
     stop_ids = [dictionary.token2id[stopword] for stopword in stoplist if stopword in dictionary.token2id]
     dictionary.filter_tokens(once_ids + stop_ids)
     dictionary.compactify()
-    dictionary.save('/tmp/rt_articles_ids.dict')
+    dictionary.save('tmp/rt_articles_ids.dict')
     return dictionary
 
 class MyCorpus(object):
@@ -26,14 +26,14 @@ class MyCorpus(object):
 def createModel(aFile):
     mem_friendly_corpus = MyCorpus()
     corpora.MmCorpus.serialize('corpus.mm',mem_friendly_corpus)
-    id2word = gensim.corpora.Dictionary.load('/tmp/rt_articles_ids.dict')
+    id2word = gensim.corpora.Dictionary.load('tmp/rt_articles_ids.dict')
     mm = gensim.corpora.MmCorpus('corpus.mm')
-    lda = gensim.models.ldamodel.LdaModel(corpus=mm, id2word=id2word, num_topics=10, update_every=0, passes=20)
+    lda = gensim.models.ldamodel.LdaModel(corpus=mm, id2word=id2word, num_topics=16, update_every=0, passes=30)
     topics = lda.show_topics()
-    lda.save('/tmp/lda_model.lda')
-    target = open('/tmp/topics.txt','a+b')
+    lda.save('tmp/lda_model.lda')
+    target = open('tmp/16topics.txt','a+b')
     for topic in topics:
-        target.write(topic + '\n')
+        target.write(topic.encode('utf-8') + '\n')
     target.close()
 
 if __name__ == "__main__":

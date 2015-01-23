@@ -1,0 +1,16 @@
+0.015*, + 0.008*blockchain + 0.005*also + 0.004*solar + 0.004*— + 0.004*people + 0.004*many + 0.004*world + 0.003*like + 0.003*would
+0.005*labor + 0.005*also + 0.004*data + 0.004*labour + 0.004*us + 0.004*work + 0.004*workers + 0.004*public + 0.004*rate + 0.004*wage
+0.008*growth + 0.007*said + 0.006*global + 0.006*oil + 0.005*eastern + 0.005*caracas + 0.005*percent + 0.005*productivity + 0.005*supermarket + 0.004*grocery
+0.009*policy + 0.006*financial + 0.005*bank + 0.004*asset + 0.004*central + 0.004*monetary + 0.004*would + 0.003*growth + 0.003*may + 0.003*u.s.
+0.017*bitcoin + 0.012*  + 0.006*block + 0.006*one + 0.006*transaction + 0.006*— + 0.006*deer + 0.005*new + 0.004*network + 0.004*alice
+0.009*companies + 0.009*new + 0.006*venture + 0.005*internet + 0.005*health + 0.004*– + 0.004*business + 0.004*data + 0.003*technology + 0.003*people
+0.009*— + 0.006*new + 0.006*would + 0.005*one + 0.004*like + 0.003*also + 0.003*team + 0.003*people + 0.002*many + 0.002*great
+0.010*web + 0.006*infrastructure + 0.006*federal + 0.005*new + 0.005*try + 0.005*, + 0.005*genius + 0.004*search + 0.004*internet + 0.004*right
+0.015*percent + 0.011*said + 0.009*oil + 0.007*since + 0.006*prices + 0.006*u.s. + 0.006*global + 0.006*year + 0.006*bank + 0.005*last
+0.014*</div> + 0.014*<div + 0.010*sex + 0.008*male + 0.008*<li + 0.008*role="menuitem" + 0.008*</li> + 0.007*brain + 0.007*police + 0.007*levels
+0.015*court + 0.011*same-sex + 0.009*marriage + 0.007*supreme + 0.006*circuit + 0.005*federal + 0.005*decision + 0.005*couples + 0.004*— + 0.004*struck
+0.008*noyce + 0.006*interest + 0.006*economic + 0.005*real + 0.004*rates + 0.004*one + 0.004*growth + 0.003*much + 0.003*book + 0.003*even
+0.009*swiss + 0.008*would + 0.007*central + 0.005*snb + 0.005*policy + 0.005*bank + 0.004*euro + 0.004*monetary + 0.004*currency + 0.004*government
+0.007*people + 0.007*one + 0.006*like + 0.006*would + 0.004*could + 0.004*get + 0.004*first + 0.004*new + 0.004*make + 0.004*it's
+0.005*water + 0.004*, + 0.004*energy + 0.004*new + 0.004*less + 0.004*since + 0.003*cost + 0.003*many + 0.003*also + 0.003*business
+0.012*military + 0.009*de + 0.005*would + 0.004*american + 0.004*war + 0.004*people + 0.004*one + 0.003*many + 0.003*public + 0.003*iraq

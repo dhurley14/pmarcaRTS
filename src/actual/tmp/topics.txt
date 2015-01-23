@@ -8,3 +8,13 @@
 0.009*swiss + 0.009*bank + 0.008*central + 0.007*</div> + 0.007*euro + 0.007*<div + 0.005*monetary + 0.005*would + 0.005*policy + 0.005*currency
 0.006*would + 0.004*one + 0.004*new + 0.004*military + 0.003*like + 0.003*said + 0.003*people + 0.003*police + 0.003*could + 0.003*—
 0.014*de + 0.011*court + 0.010*same-sex + 0.008*marriage + 0.007*— + 0.005*product + 0.005*market + 0.005*team + 0.005*great + 0.005*supreme
+0.016*percent + 0.013*said + 0.011*oil + 0.009*, + 0.008*bank + 0.007*prices + 0.006*u.s. + 0.006*since + 0.006*last + 0.005*according
+0.006*one + 0.006*like + 0.006*people + 0.006*would + 0.004*get + 0.004*new + 0.004*make + 0.004*think + 0.004*it’s + 0.004*could
+0.006*new + 0.005*world + 0.005*one + 0.004*— + 0.004*number + 0.003*people + 0.003*companies + 0.003*could + 0.003*per + 0.003*countries
+0.014*military + 0.006*would + 0.004*american + 0.004*people + 0.004*one + 0.004*public + 0.004*many + 0.003*iraq + 0.003*war + 0.003*told
+0.007*economic + 0.005*economics + 0.004*& + 0.004*rt + 0.004*p. + 0.003*j. + 0.003*times, + 0.003*daily + 0.003*per + 0.003*don't
+0.008*-- + 0.005*it's + 0.005*. + 0.004*book + 0.004*us + 0.004*on-demand + 0.004*trust + 0.004*— + 0.004*world + 0.004*people
+0.012*said + 0.008*scalise + 0.008*rt + 0.004*time + 0.004*young + 0.004*house + 0.004*new + 0.004*day + 0.004*good + 0.004*people
+0.009*infrastructure + 0.008*story, + 0.008*subscribe + 0.008*log + 0.007*local + 0.007*full + 0.006*government + 0.006*read + 0.005*yuan + 0.005*federal
+0.027*</div> + 0.027*<div + 0.015*<li + 0.015*role="menuitem" + 0.015*</li> + 0.009*<ul + 0.009*hidden" + 0.009*</ul> + 0.009*<span + 0.009*<a
+0.005*would + 0.005*swiss + 0.004*even + 0.003*could + 0.003*central + 0.003*one + 0.003*euro + 0.003*snb + 0.003*— + 0.003*said
