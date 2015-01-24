@@ -28,10 +28,10 @@ def createModel(aFile):
     corpora.MmCorpus.serialize('corpus.mm',mem_friendly_corpus)
     id2word = gensim.corpora.Dictionary.load('tmp/rt_articles_ids.dict')
     mm = gensim.corpora.MmCorpus('corpus.mm')
-    lda = gensim.models.ldamodel.LdaModel(corpus=mm, id2word=id2word, num_topics=16, update_every=0, passes=30)
+    lda = gensim.models.ldamodel.LdaModel(corpus=mm, id2word=id2word, num_topics=10, update_every=0, passes=25)
     topics = lda.show_topics()
-    lda.save('tmp/lda_model.lda')
-    target = open('tmp/16topics.txt','a+b')
+    lda.save('tmp/lda_ten_model.lda')
+    target = open('tmp/10topics.txt','w+b')
     for topic in topics:
         target.write(topic.encode('utf-8') + '\n')
     target.close()
